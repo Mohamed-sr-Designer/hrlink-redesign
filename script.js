@@ -45,11 +45,14 @@
     });
   });
 
-  /* ---------- App audience tabs (visual segment) ---------- */
+  /* ---------- App audience tabs (employees / managers) ---------- */
   const appTabs = document.querySelectorAll(".mtab[data-apptab]");
+  const phoneScreens = document.querySelectorAll(".phone__screen[data-screen]");
   appTabs.forEach((tab) => {
     tab.addEventListener("click", () => {
       appTabs.forEach((t) => t.classList.toggle("is-active", t === tab));
+      const key = tab.dataset.apptab;
+      phoneScreens.forEach((s) => s.classList.toggle("is-active", s.dataset.screen === key));
     });
   });
 

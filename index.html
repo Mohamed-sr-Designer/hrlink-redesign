@@ -326,7 +326,7 @@
       </div>
       <div class="phone reveal" data-d="2">
         <span class="phone__glow"></span>
-        <div class="phone__screen" aria-hidden="true">
+        <div class="phone__screen is-active" data-screen="emp" aria-hidden="true">
           <div class="ps-top"><span>09:41</span><span>HR Link</span></div>
           <div class="ps-hi">كل شيء أمامك بلحظة</div>
           <div class="ps-row">
@@ -337,6 +337,18 @@
           <div class="ps-card"><span class="ps-dot"></span><span>طلب إجازة · بانتظار الموافقة</span></div>
           <div class="ps-card"><span class="ps-dot"></span><span>قسيمة الراتب · مارس</span></div>
           <div class="ps-card"><span class="ps-dot"></span><span>تسجيل الحضور · اليوم</span></div>
+        </div>
+        <div class="phone__screen" data-screen="mgr" aria-hidden="true">
+          <div class="ps-top"><span>09:41</span><span>HR Link</span></div>
+          <div class="ps-hi">كل شيء أمامك بلحظة</div>
+          <div class="ps-row">
+            <div class="ps-stat"><b>5</b><small>بانتظار موافقتك</small></div>
+            <div class="ps-stat"><b>24</b><small>الفريق</small></div>
+            <div class="ps-stat"><b>3</b><small>تقارير</small></div>
+          </div>
+          <div class="ps-card"><span class="ps-dot"></span><span>طلب إجازة · يتطلب موافقتك</span></div>
+          <div class="ps-card"><span class="ps-dot"></span><span>طلب سلفة · يتطلب موافقتك</span></div>
+          <div class="ps-card"><span class="ps-dot"></span><span>تقرير الحضور · الفريق</span></div>
         </div>
         <img src="assets/iphone.png" alt="تطبيق اتش آر لينك على الجوال" class="phone__frame" />
       </div>
@@ -481,7 +493,7 @@
   </section>
 
   <!-- ============================== FINAL CTA ========================== -->
-  <section class="section" id="demo">
+  <section class="section final-cta" id="demo">
     <div class="container">
       <div class="final-cta__box reveal">
         <span class="eyebrow" style="background:rgba(255,255,255,.14);color:#fff"><span class="dot"></span> ابدأ اليوم</span>

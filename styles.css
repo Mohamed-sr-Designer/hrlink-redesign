@@ -358,10 +358,10 @@ body.menu-open .mobile-menu__panel { transform: translateX(0); }
    7. CLIENT LOGO MARQUEE
    -------------------------------------------------------------------------- */
 .marquee { overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent); mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent); }
-.marquee__track { display: flex; gap: clamp(2.5rem, 6vw, 5rem); width: max-content; animation: marquee 34s linear infinite; }
+.marquee__track { display: flex; align-items: center; gap: clamp(2.5rem, 6vw, 5rem); width: max-content; animation: marquee 34s linear infinite; }
 .marquee:hover .marquee__track { animation-play-state: paused; }
-.marquee__item { display: grid; place-items: center; height: 46px; flex-shrink: 0; }
-.marquee__item img { height: 100%; width: auto; object-fit: contain; filter: grayscale(1) opacity(.62); transition: filter var(--t); }
+.marquee__item { display: grid; place-items: center; height: 48px; flex: 0 0 auto; }
+.marquee__item img { height: 38px; max-height: 38px; width: auto; max-width: 150px; object-fit: contain; filter: grayscale(1) opacity(.62); transition: filter var(--t); }
 .marquee__item:hover img { filter: grayscale(0) opacity(1); }
 @keyframes marquee { to { transform: translateX(50%); } } /* RTL direction */
 
@@ -495,7 +495,9 @@ body.menu-open .mobile-menu__panel { transform: translateX(0); }
   border-radius: 38px; overflow: hidden;
   background: linear-gradient(170deg, var(--brand-700), var(--brand-950));
   display: flex; flex-direction: column; color: #fff; padding: 12% 7% 7%;
+  opacity: 0; visibility: hidden; transition: opacity var(--t) var(--ease);
 }
+.phone__screen.is-active { opacity: 1; visibility: visible; }
 .phone__screen .ps-top { display: flex; align-items: center; justify-content: space-between; font-size: .7rem; opacity: .9; }
 .phone__screen .ps-hi { font-size: 1.05rem; font-weight: 700; margin-top: 1rem; }
 .phone__screen .ps-row { display: flex; gap: .5rem; margin-top: 1rem; }
