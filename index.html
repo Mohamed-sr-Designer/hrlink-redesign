@@ -47,6 +47,12 @@
     <symbol id="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M3 2.5 21 12 3 21.5Z"/></symbol>
     <symbol id="i-x" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7 8 8.2 12h-6.4l-5-7.3L9 22H6l7.5-8.6L5.6 2H12l4.5 6.6Z"/></symbol>
     <symbol id="i-quote" viewBox="0 0 24 24" fill="currentColor"><path d="M7.5 5C5 5 3 7 3 9.6c0 2.4 1.8 4.3 4.2 4.3.3 0 .6 0 .9-.1-.5 1.6-2 2.9-3.7 3.3-.4.1-.7.5-.6 1 .1.5.5.8 1 .7 3.9-.8 6.7-4.2 6.7-8.4V9.6C11.5 7 9.9 5 7.5 5Zm9 0C14 5 12 7 12 9.6c0 2.4 1.8 4.3 4.2 4.3.3 0 .6 0 .9-.1-.5 1.6-2 2.9-3.7 3.3-.4.1-.7.5-.6 1 .1.5.5.8 1 .7 3.9-.8 6.7-4.2 6.7-8.4V9.6C20.5 7 18.9 5 16.5 5Z"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18"/></symbol>
+    <symbol id="i-video" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="m22 8-6 4 6 4V8Z"/></symbol>
+    <symbol id="i-building" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M9 22v-4h6v4M8 6h.01M12 6h.01M16 6h.01M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M16 14h.01"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="14" y2="17"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></symbol>
     <symbol id="i-linkedin" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3Zm6 0h3.8v1.7h.1c.5-1 1.8-2 3.7-2 4 0 4.7 2.5 4.7 5.8V21h-4v-5.3c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21H9Z"/></symbol>
     <symbol id="i-whatsapp" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.4A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .3-3.3-.7-2.8-1.2-4.5-4-4.7-4.2-.1-.2-1-1.4-1-2.6s.6-1.8.9-2.1c.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6c-.2.2-.3.3-.1.6.2.3.8 1.3 1.7 2 1.2.9 1.6.9 1.9 1.1.2.1.4 0 .5-.1l.7-.8c.2-.2.4-.2.6-.1l1.9.9c.2.1.4.2.5.3.1.3.1.7-.1 1.2Z"/></symbol>
   </defs>
@@ -79,8 +85,7 @@
     </nav>
 
     <div class="header__actions">
-      <a href="https://hrlink.com.sa/en" class="lang-toggle">EN</a>
-      <a href="#demo" class="btn btn--primary btn--sm">احجز عرض تجريبي</a>
+      <a href="#book" class="btn btn--primary btn--sm" data-book>احجز عرض تجريبي</a>
       <button class="burger" id="burger" aria-label="القائمة" aria-expanded="false"><span></span></button>
     </div>
   </div>
@@ -93,8 +98,7 @@
     <a href="#" class="mobile-menu__link">المدونة</a>
     <a href="#" class="mobile-menu__link">من نحن</a>
     <a href="#faq" class="mobile-menu__link">الأسئلة الشائعة</a>
-    <a href="https://hrlink.com.sa/en" class="mobile-menu__link">EN</a>
-    <a href="#demo" class="btn btn--primary btn--lg">احجز عرض تجريبي</a>
+    <a href="#book" class="btn btn--primary btn--lg" data-book>احجز عرض تجريبي</a>
   </div>
 </div>
 
@@ -109,7 +113,7 @@
         <h1>أتمت العمليات <span class="grad">من التوظيف إلى التقاعد</span> بنظام سعودي يفهمك</h1>
         <p class="hero__sub">من فوضى العمليات.. إلى وتيرة تشغيل قابلة للتوسع</p>
         <div class="hero__cta">
-          <a href="#demo" class="btn btn--primary btn--lg">إحجز عرض تجريبي <svg class="arrow"><use href="#i-arrow"/></svg></a>
+          <a href="#book" class="btn btn--primary btn--lg" data-book>إحجز عرض تجريبي <svg class="arrow"><use href="#i-arrow"/></svg></a>
           <a href="#how" class="btn btn--outline btn--lg">آلية عملنا</a>
         </div>
         <div class="hero__trust">
@@ -326,30 +330,69 @@
       </div>
       <div class="phone reveal" data-d="2">
         <span class="phone__glow"></span>
+
         <div class="phone__screen is-active" data-screen="emp" aria-hidden="true">
-          <div class="ps-top"><span>09:41</span><span>HR Link</span></div>
-          <div class="ps-hi">كل شيء أمامك بلحظة</div>
-          <div class="ps-row">
-            <div class="ps-stat"><b>2</b><small>طلبات</small></div>
-            <div class="ps-stat"><b>18</b><small>أيام إجازة</small></div>
-            <div class="ps-stat"><b>4</b><small>مهام</small></div>
+          <div class="ps-status"><span>9:41</span><span class="ps-batt"><svg viewBox="0 0 24 12"><rect x="1" y="1" width="18" height="10" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.4"/><rect x="3" y="3" width="11" height="6" rx="1" fill="currentColor"/><rect x="20" y="4" width="2" height="4" rx="1" fill="currentColor"/></svg> 65</span></div>
+          <div class="ps-appbar">
+            <svg class="ps-ic"><use href="#i-menu"/></svg>
+            <svg class="ps-logo" viewBox="0 0 96 24" fill="none"><path fill="currentColor" d="M0 2.128C.441.235 2.929-.533 4.227 1.029c.28.336.584.975.584 1.408v6.487h5.98V2.162c0-.644.907-1.578 1.486-1.81 1.422-.57 3.17.477 3.258 2.013v17.853c-.183 2.211-3.159 3.11-4.389 1.151-.084-.133-.356-.691-.356-.811v-6.831H4.811v6.556c0 1.077-1.121 2.085-2.162 2.165-1.397.107-2.344-.75-2.649-2.062V2.128ZM39.994 0c.752.203 1.561.725 1.857 1.474.057.144.204.635.204.758v15.273h6.631c.29 0 .86.297 1.098.482 1.763 1.372.927 4.137-1.3 4.326-2.855.242-6.046-.185-8.935-.004-1.25-.104-2.114-.928-2.306-2.158l.002-18.194C37.4 1.142 38 .471 38.758.173l.55-.172h.686V0ZM81.912 11.12l5.291-5.252c2.255-1.834 5.226.981 3.436 3.294l-4.74 4.738 4.777 4.769c1.316 1.885-.153 4.044-2.4 3.77-.603-.075-1.086-.562-1.52-.952-1.67-1.499-3.156-3.314-4.844-4.807v3.74c0 .324-.476 1.103-.718 1.343-1.332 1.313-3.414.649-3.993-1.03V1.919c.55-1.805 2.916-2.413 4.16-.92.18.218.551.903.551 1.164v8.959ZM60.457 5.442c1.247-.114 2.452.893 2.56 2.14.188 2.17-.178 4.621-.006 6.8.304 3.83 5.882 4.636 7.389 1.06.771-1.831.091-5.892.311-8.063.259-2.559 4.333-2.581 4.604.137-.232 4.6 1.123 9.313-2.785 12.731-5.447 4.765-13.794 1.14-14.191-6.07-.105-1.907-.137-4.708 0-6.597a2.304 2.304 0 0 1 2.118-2.141v.003ZM25.549 5.582c3.047-.184 3.531 4.078.718 4.561-1.538.266-2.514.154-3.552 1.6-1.327 1.848-.52 6.326-.724 8.681-.238 2.747-4.276 2.756-4.606.066.255-3.121-.607-6.866.654-9.78 1.261-2.914 4.29-4.935 7.508-5.13l.002.002ZM54.137 5.576c1.232-.042 2.157 1.068 2.272 2.224-.199 4.075.293 8.448.012 12.488-.195 2.79-3.96 2.99-4.533.335l-.01-13.039c.056-1.067 1.231-1.97 2.26-2.006v-.002ZM53.79.292c3.215-.433 3.479 4.415.53 4.58-3.08.174-3.265-4.212-.53-4.58Z"/><path fill="#38C2D7" d="M66.503.292c3.122-.423 3.509 4.38.461 4.582-2.84.188-3.322-4.195-.46-4.582Z"/></svg>
+            <svg class="ps-ic"><use href="#i-bell"/></svg>
           </div>
-          <div class="ps-card"><span class="ps-dot"></span><span>طلب إجازة · بانتظار الموافقة</span></div>
-          <div class="ps-card"><span class="ps-dot"></span><span>قسيمة الراتب · مارس</span></div>
-          <div class="ps-card"><span class="ps-dot"></span><span>تسجيل الحضور · اليوم</span></div>
+          <div class="ps-body">
+            <div class="ps-card2">
+              <div class="ps-h">
+                <div><b>اجازة سنوية</b><small>الأيام المتاحة</small></div>
+                <div class="ps-ring" style="--p:62"><span>62%</span></div>
+              </div>
+              <div class="ps-meta"><span>المتاح · 18 يوم</span><span>مستخدم · 11 يوم</span></div>
+              <div class="ps-bar"><i style="width:62%"></i></div>
+              <div class="ps-acts"><button class="pri">طلب جديد</button><button class="sec">التفاصيل</button></div>
+            </div>
+            <div class="ps-card2">
+              <b>الراتب</b>
+              <div class="ps-chart"><i style="height:58%"></i><i style="height:74%"></i><i style="height:96%"></i><i style="height:68%"></i></div>
+            </div>
+          </div>
+          <div class="ps-nav">
+            <span class="on"><svg><use href="#i-grid"/></svg>لوحة التحكم</span>
+            <span><svg><use href="#i-flow"/></svg>الإجراءات</span>
+            <span class="ps-fab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            <span><svg><use href="#i-briefcase"/></svg>خدماتي</span>
+            <span><svg><use href="#i-users"/></svg>المجتمع</span>
+          </div>
         </div>
+
         <div class="phone__screen" data-screen="mgr" aria-hidden="true">
-          <div class="ps-top"><span>09:41</span><span>HR Link</span></div>
-          <div class="ps-hi">كل شيء أمامك بلحظة</div>
-          <div class="ps-row">
-            <div class="ps-stat"><b>5</b><small>بانتظار موافقتك</small></div>
-            <div class="ps-stat"><b>24</b><small>الفريق</small></div>
-            <div class="ps-stat"><b>3</b><small>تقارير</small></div>
+          <div class="ps-status"><span>9:41</span><span class="ps-batt"><svg viewBox="0 0 24 12"><rect x="1" y="1" width="18" height="10" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.4"/><rect x="3" y="3" width="11" height="6" rx="1" fill="currentColor"/><rect x="20" y="4" width="2" height="4" rx="1" fill="currentColor"/></svg> 65</span></div>
+          <div class="ps-appbar">
+            <svg class="ps-ic"><use href="#i-menu"/></svg>
+            <svg class="ps-logo" viewBox="0 0 96 24" fill="none"><path fill="currentColor" d="M0 2.128C.441.235 2.929-.533 4.227 1.029c.28.336.584.975.584 1.408v6.487h5.98V2.162c0-.644.907-1.578 1.486-1.81 1.422-.57 3.17.477 3.258 2.013v17.853c-.183 2.211-3.159 3.11-4.389 1.151-.084-.133-.356-.691-.356-.811v-6.831H4.811v6.556c0 1.077-1.121 2.085-2.162 2.165-1.397.107-2.344-.75-2.649-2.062V2.128ZM39.994 0c.752.203 1.561.725 1.857 1.474.057.144.204.635.204.758v15.273h6.631c.29 0 .86.297 1.098.482 1.763 1.372.927 4.137-1.3 4.326-2.855.242-6.046-.185-8.935-.004-1.25-.104-2.114-.928-2.306-2.158l.002-18.194C37.4 1.142 38 .471 38.758.173l.55-.172h.686V0ZM81.912 11.12l5.291-5.252c2.255-1.834 5.226.981 3.436 3.294l-4.74 4.738 4.777 4.769c1.316 1.885-.153 4.044-2.4 3.77-.603-.075-1.086-.562-1.52-.952-1.67-1.499-3.156-3.314-4.844-4.807v3.74c0 .324-.476 1.103-.718 1.343-1.332 1.313-3.414.649-3.993-1.03V1.919c.55-1.805 2.916-2.413 4.16-.92.18.218.551.903.551 1.164v8.959ZM60.457 5.442c1.247-.114 2.452.893 2.56 2.14.188 2.17-.178 4.621-.006 6.8.304 3.83 5.882 4.636 7.389 1.06.771-1.831.091-5.892.311-8.063.259-2.559 4.333-2.581 4.604.137-.232 4.6 1.123 9.313-2.785 12.731-5.447 4.765-13.794 1.14-14.191-6.07-.105-1.907-.137-4.708 0-6.597a2.304 2.304 0 0 1 2.118-2.141v.003ZM25.549 5.582c3.047-.184 3.531 4.078.718 4.561-1.538.266-2.514.154-3.552 1.6-1.327 1.848-.52 6.326-.724 8.681-.238 2.747-4.276 2.756-4.606.066.255-3.121-.607-6.866.654-9.78 1.261-2.914 4.29-4.935 7.508-5.13l.002.002ZM54.137 5.576c1.232-.042 2.157 1.068 2.272 2.224-.199 4.075.293 8.448.012 12.488-.195 2.79-3.96 2.99-4.533.335l-.01-13.039c.056-1.067 1.231-1.97 2.26-2.006v-.002ZM53.79.292c3.215-.433 3.479 4.415.53 4.58-3.08.174-3.265-4.212-.53-4.58Z"/><path fill="#38C2D7" d="M66.503.292c3.122-.423 3.509 4.38.461 4.582-2.84.188-3.322-4.195-.46-4.582Z"/></svg>
+            <svg class="ps-ic"><use href="#i-bell"/></svg>
           </div>
-          <div class="ps-card"><span class="ps-dot"></span><span>طلب إجازة · يتطلب موافقتك</span></div>
-          <div class="ps-card"><span class="ps-dot"></span><span>طلب سلفة · يتطلب موافقتك</span></div>
-          <div class="ps-card"><span class="ps-dot"></span><span>تقرير الحضور · الفريق</span></div>
+          <div class="ps-body">
+            <div class="ps-card2">
+              <div class="ps-h">
+                <div><b>بانتظار موافقتك</b><small>هذا الأسبوع</small></div>
+                <div class="ps-ring" style="--p:50"><span>5</span></div>
+              </div>
+              <div class="ps-approval"><span>طلب إجازة · أحمد علي</span><em>جديد</em></div>
+              <div class="ps-approval"><span>طلب سلفة · سارة محمد</span><em>جديد</em></div>
+              <div class="ps-acts"><button class="pri">موافقة</button><button class="sec">عرض الكل</button></div>
+            </div>
+            <div class="ps-card2">
+              <b>أداء الفريق</b>
+              <div class="ps-chart"><i style="height:70%"></i><i style="height:52%"></i><i style="height:88%"></i><i style="height:64%"></i></div>
+            </div>
+          </div>
+          <div class="ps-nav">
+            <span class="on"><svg><use href="#i-grid"/></svg>لوحة التحكم</span>
+            <span><svg><use href="#i-flow"/></svg>الإجراءات</span>
+            <span class="ps-fab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            <span><svg><use href="#i-briefcase"/></svg>خدماتي</span>
+            <span><svg><use href="#i-users"/></svg>المجتمع</span>
+          </div>
         </div>
+
         <img src="assets/iphone.png" alt="تطبيق اتش آر لينك على الجوال" class="phone__frame" />
       </div>
     </div>
@@ -498,7 +541,7 @@
       <div class="final-cta__box reveal">
         <span class="eyebrow" style="background:rgba(255,255,255,.14);color:#fff"><span class="dot"></span> ابدأ اليوم</span>
         <h2>أتمت العمليات من التوظيف إلى التقاعد بنظام سعودي يفهمك</h2>
-        <a href="#" class="btn btn--light btn--lg">احجز عرض تجريبي <svg class="arrow"><use href="#i-arrow"/></svg></a>
+        <a href="#book" class="btn btn--light btn--lg" data-book>احجز عرض تجريبي <svg class="arrow"><use href="#i-arrow"/></svg></a>
         <p class="final-cta__sub">تحدث مع خبير عن متطلباتك، سيجيب على اسئلتك، ويقوم بتهيئة النظام لك.</p>
       </div>
     </div>
@@ -545,6 +588,108 @@
     </div>
   </div>
 </footer>
+
+<!-- ========================== BOOK A DEMO MODAL ======================== -->
+<div class="modal" id="bookModal" aria-hidden="true">
+  <div class="modal__overlay" data-close></div>
+  <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="bookTitle">
+    <button class="modal__close" data-close aria-label="إغلاق"><svg><use href="#i-close"/></svg></button>
+    <div class="modal__grid" id="bookGrid">
+      <aside class="modal__aside">
+        <span class="brand brand--light">
+          <svg viewBox="0 0 96 24" fill="none" aria-hidden="true"><path fill="currentColor" d="M0 2.128C.441.235 2.929-.533 4.227 1.029c.28.336.584.975.584 1.408v6.487h5.98V2.162c0-.644.907-1.578 1.486-1.81 1.422-.57 3.17.477 3.258 2.013v17.853c-.183 2.211-3.159 3.11-4.389 1.151-.084-.133-.356-.691-.356-.811v-6.831H4.811v6.556c0 1.077-1.121 2.085-2.162 2.165-1.397.107-2.344-.75-2.649-2.062V2.128ZM39.994 0c.752.203 1.561.725 1.857 1.474.057.144.204.635.204.758v15.273h6.631c.29 0 .86.297 1.098.482 1.763 1.372.927 4.137-1.3 4.326-2.855.242-6.046-.185-8.935-.004-1.25-.104-2.114-.928-2.306-2.158l.002-18.194C37.4 1.142 38 .471 38.758.173l.55-.172h.686V0ZM81.912 11.12l5.291-5.252c2.255-1.834 5.226.981 3.436 3.294l-4.74 4.738 4.777 4.769c1.316 1.885-.153 4.044-2.4 3.77-.603-.075-1.086-.562-1.52-.952-1.67-1.499-3.156-3.314-4.844-4.807v3.74c0 .324-.476 1.103-.718 1.343-1.332 1.313-3.414.649-3.993-1.03V1.919c.55-1.805 2.916-2.413 4.16-.92.18.218.551.903.551 1.164v8.959ZM60.457 5.442c1.247-.114 2.452.893 2.56 2.14.188 2.17-.178 4.621-.006 6.8.304 3.83 5.882 4.636 7.389 1.06.771-1.831.091-5.892.311-8.063.259-2.559 4.333-2.581 4.604.137-.232 4.6 1.123 9.313-2.785 12.731-5.447 4.765-13.794 1.14-14.191-6.07-.105-1.907-.137-4.708 0-6.597a2.304 2.304 0 0 1 2.118-2.141v.003ZM25.549 5.582c3.047-.184 3.531 4.078.718 4.561-1.538.266-2.514.154-3.552 1.6-1.327 1.848-.52 6.326-.724 8.681-.238 2.747-4.276 2.756-4.606.066.255-3.121-.607-6.866.654-9.78 1.261-2.914 4.29-4.935 7.508-5.13l.002.002ZM54.137 5.576c1.232-.042 2.157 1.068 2.272 2.224-.199 4.075.293 8.448.012 12.488-.195 2.79-3.96 2.99-4.533.335l-.01-13.039c.056-1.067 1.231-1.97 2.26-2.006v-.002ZM53.79.292c3.215-.433 3.479 4.415.53 4.58-3.08.174-3.265-4.212-.53-4.58Z"/><path fill="#38C2D7" d="M66.503.292c3.122-.423 3.509 4.38.461 4.582-2.84.188-3.322-4.195-.46-4.582Z"/></svg>
+        </span>
+        <h3 id="bookTitle">احجز عرض تجريبي</h3>
+        <p>تحدث مع خبير عن متطلباتك، سيجيب على اسئلتك، ويقوم بتهيئة النظام لك.</p>
+        <ul class="modal__steps">
+          <li><span class="modal__num">1</span> اختر نوع العرض</li>
+          <li><span class="modal__num">2</span> حدد التاريخ والوقت</li>
+          <li><span class="modal__num">3</span> أدخل بياناتك</li>
+        </ul>
+        <div class="modal__pill"><svg><use href="#i-shield"/></svg> مستضاف في المملكة 🇸🇦</div>
+      </aside>
+
+      <form class="book-form" id="bookForm" novalidate>
+        <div class="field field--full">
+          <label for="bf-service">نوع العرض</label>
+          <div class="field__control">
+            <svg class="field__ico"><use href="#i-video"/></svg>
+            <select id="bf-service" name="service" required>
+              <option value="online">عرض عبر الإنترنت ( 45 دقيقة )</option>
+              <option value="phone">اتصال هاتفي ( 30 دقيقة )</option>
+              <option value="onsite">عرض حضوري ( 60 دقيقة )</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="bf-date">التاريخ</label>
+          <div class="field__control">
+            <svg class="field__ico"><use href="#i-calendar"/></svg>
+            <input id="bf-date" name="date" type="date" required />
+          </div>
+        </div>
+        <div class="field">
+          <label for="bf-time">الوقت</label>
+          <div class="field__control">
+            <svg class="field__ico"><use href="#i-clock"/></svg>
+            <select id="bf-time" name="time" required>
+              <option>09:00 ص</option><option>10:00 ص</option><option>11:00 ص</option>
+              <option>12:00 م</option><option>01:00 م</option><option selected>03:00 م</option>
+              <option>04:00 م</option><option>05:00 م</option>
+            </select>
+          </div>
+        </div>
+        <div class="field field--full">
+          <label for="bf-tz">المنطقة الزمنية</label>
+          <div class="field__control">
+            <svg class="field__ico"><use href="#i-globe"/></svg>
+            <select id="bf-tz" name="timezone" required>
+              <option selected>توقيت السعودية ( +03:00 )</option>
+              <option>توقيت الإمارات ( +04:00 )</option>
+              <option>توقيت مصر ( +02:00 )</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="bf-name">الاسم الكامل</label>
+          <div class="field__control">
+            <svg class="field__ico"><use href="#i-users"/></svg>
+            <input id="bf-name" name="name" type="text" placeholder="الاسم" required />
+          </div>
+        </div>
+        <div class="field">
+          <label for="bf-company">اسم الشركة</label>
+          <div class="field__control">
+            <svg class="field__ico"><use href="#i-building"/></svg>
+            <input id="bf-company" name="company" type="text" placeholder="الشركة" required />
+          </div>
+        </div>
+        <div class="field">
+          <label for="bf-email">البريد الإلكتروني للعمل</label>
+          <div class="field__control">
+            <svg class="field__ico"><use href="#i-mail"/></svg>
+            <input id="bf-email" name="email" type="email" placeholder="name@company.com" dir="ltr" required />
+          </div>
+        </div>
+        <div class="field">
+          <label for="bf-phone">رقم الجوال</label>
+          <div class="field__control">
+            <svg class="field__ico"><use href="#i-call"/></svg>
+            <input id="bf-phone" name="phone" type="tel" placeholder="05xxxxxxxx" dir="ltr" required />
+          </div>
+        </div>
+        <button type="submit" class="btn btn--primary btn--lg field--full">احجز عرض تجريبي <svg class="arrow"><use href="#i-arrow"/></svg></button>
+      </form>
+    </div>
+
+    <div class="modal__success" id="bookSuccess" hidden>
+      <div class="modal__success-ico"><svg><use href="#i-check"/></svg></div>
+      <h3>تم استلام طلبك بنجاح</h3>
+      <p>سنتواصل معك لتأكيد موعد العرض التجريبي وتهيئة النظام وفق متطلباتك.</p>
+      <button class="btn btn--ghost" data-close>إغلاق</button>
+    </div>
+  </div>
+</div>
 
 <script src="script.js"></script>
 </body>

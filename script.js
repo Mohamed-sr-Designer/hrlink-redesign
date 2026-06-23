@@ -56,6 +56,51 @@
     });
   });
 
+  /* ---------- Book-a-demo modal ---------- */
+  const bookModal = document.getElementById("bookModal");
+  if (bookModal) {
+    const grid = document.getElementById("bookGrid");
+    const success = document.getElementById("bookSuccess");
+    const form = document.getElementById("bookForm");
+    const dateInput = document.getElementById("bf-date");
+    if (dateInput) dateInput.value = new Date().toISOString().slice(0, 10);
+
+    const openModal = () => {
+      if (grid) grid.hidden = false;
+      if (success) success.hidden = true;
+      bookModal.classList.add("is-open");
+      bookModal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("modal-open");
+      toggleMenu(false);
+      const first = document.getElementById("bf-service");
+      if (first) setTimeout(() => first.focus(), 80);
+    };
+    const closeModal = () => {
+      bookModal.classList.remove("is-open");
+      bookModal.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("modal-open");
+    };
+
+    document.querySelectorAll("[data-book]").forEach((b) =>
+      b.addEventListener("click", (e) => { e.preventDefault(); openModal(); })
+    );
+    bookModal.querySelectorAll("[data-close]").forEach((c) =>
+      c.addEventListener("click", closeModal)
+    );
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && bookModal.classList.contains("is-open")) closeModal();
+    });
+
+    if (form) {
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        if (typeof form.reportValidity === "function" && !form.reportValidity()) return;
+        if (grid) grid.hidden = true;
+        if (success) success.hidden = false;
+      });
+    }
+  }
+
   /* ---------- FAQ accordion ---------- */
   document.querySelectorAll(".acc").forEach((acc) => {
     const btn = acc.querySelector(".acc__btn");
