@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>اتش آر لينك | منصة موارد بشرية متكاملة للشركات السعودية</title>
+  <meta name="description" content="المنصة المتكاملة لإدارة الموارد البشرية — أتمت العمليات من التوظيف إلى التقاعد بنظام سعودي يفهمك." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============================ ICON SPRITE ============================ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></symbol>
+    <symbol id="i-import" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></symbol>
+    <symbol id="i-gauge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14 14.5 9.5"/><path d="M4 18a8 8 0 1 1 16 0Z"/><circle cx="12" cy="14" r="1.2" fill="currentColor"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-support" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5a2 2 0 0 1 2-2h2.6a1 1 0 0 1 1 .76l1 3.5a1 1 0 0 1-.5 1.1l-1.8 1a13 13 0 0 0 6 6l1-1.8a1 1 0 0 1 1.1-.5l3.5 1a1 1 0 0 1 .76 1V19a2 2 0 0 1-2 2A16 16 0 0 1 3 5Z"/></symbol>
+    <symbol id="i-plug" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2v6M15 2v6M7 8h10v3a5 5 0 0 1-10 0Z"/><path d="M12 16v6"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.4" fill="currentColor"/></symbol>
+    <symbol id="i-wallet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M19 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5"/><path d="M16 12h.01"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 16 14"/></symbol>
+    <symbol id="i-plane" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5a2.12 2.12 0 0 0-3-3L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2Z"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></symbol>
+    <symbol id="i-flow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="6" height="6" rx="1"/><rect x="15" y="15" width="6" height="6" rx="1"/><path d="M6 9v3a3 3 0 0 0 3 3h6"/></symbol>
+    <symbol id="i-report" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6"/><rect x="12" y="8" width="3" height="10"/><rect x="17" y="5" width="3" height="13"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></symbol>
+    <symbol id="i-timecost" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2"/><path d="M5 3 2 6M19 3l3 3"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2.5"/><line x1="11" y1="18" x2="13" y2="18"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-call" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1l-2.2 2.2Z"/></symbol>
+    <symbol id="i-scale" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="M7 21h10"/><path d="m3 8 4-3 4 3-2 5a3 3 0 0 1-4 0Z"/><path d="m13 8 4-3 4 3-2 5a3 3 0 0 1-4 0Z"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v4M12 17v4M3 12h4M17 12h4"/><path d="m6 6 2 2M16 16l2 2M18 6l-2 2M8 16l-2 2"/></symbol>
+    <symbol id="i-apple" viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 1.8c.1 1-.3 2-1 2.8-.7.8-1.8 1.4-2.8 1.3-.1-1 .4-2 1-2.7.7-.8 1.9-1.4 2.8-1.4ZM19.7 17c-.5 1.2-.8 1.7-1.5 2.7-1 1.5-2.4 3.3-4.1 3.3-1.5 0-1.9-1-4-1-2 0-2.5 1-4 1-1.7 0-3-1.7-4-3.1-2.7-4-3-8.6-1.3-11.1 1.2-1.7 3-2.7 4.8-2.7 1.8 0 2.9 1 4.4 1 1.4 0 2.3-1 4.4-1 1.5 0 3.2.9 4.3 2.3-3.8 2-3.2 7.4.3 8.6Z"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M3 2.5 21 12 3 21.5Z"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7 8 8.2 12h-6.4l-5-7.3L9 22H6l7.5-8.6L5.6 2H12l4.5 6.6Z"/></symbol>
+    <symbol id="i-quote" viewBox="0 0 24 24" fill="currentColor"><path d="M7.5 5C5 5 3 7 3 9.6c0 2.4 1.8 4.3 4.2 4.3.3 0 .6 0 .9-.1-.5 1.6-2 2.9-3.7 3.3-.4.1-.7.5-.6 1 .1.5.5.8 1 .7 3.9-.8 6.7-4.2 6.7-8.4V9.6C11.5 7 9.9 5 7.5 5Zm9 0C14 5 12 7 12 9.6c0 2.4 1.8 4.3 4.2 4.3.3 0 .6 0 .9-.1-.5 1.6-2 2.9-3.7 3.3-.4.1-.7.5-.6 1 .1.5.5.8 1 .7 3.9-.8 6.7-4.2 6.7-8.4V9.6C20.5 7 18.9 5 16.5 5Z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3Zm6 0h3.8v1.7h.1c.5-1 1.8-2 3.7-2 4 0 4.7 2.5 4.7 5.8V21h-4v-5.3c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21H9Z"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.4A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .3-3.3-.7-2.8-1.2-4.5-4-4.7-4.2-.1-.2-1-1.4-1-2.6s.6-1.8.9-2.1c.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6c-.2.2-.3.3-.1.6.2.3.8 1.3 1.7 2 1.2.9 1.6.9 1.9 1.1.2.1.4 0 .5-.1l.7-.8c.2-.2.4-.2.6-.1l1.9.9c.2.1.4.2.5.3.1.3.1.7-.1 1.2Z"/></symbol>
+  </defs>
+</svg>
+
+<!-- ================================ HEADER =============================== -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#top" class="brand" aria-label="اتش آر لينك">
+      <svg viewBox="0 0 96 24" fill="none" aria-hidden="true"><path fill="currentColor" d="M0 2.128C.441.235 2.929-.533 4.227 1.029c.28.336.584.975.584 1.408v6.487h5.98V2.162c0-.644.907-1.578 1.486-1.81 1.422-.57 3.17.477 3.258 2.013v17.853c-.183 2.211-3.159 3.11-4.389 1.151-.084-.133-.356-.691-.356-.811v-6.831H4.811v6.556c0 1.077-1.121 2.085-2.162 2.165-1.397.107-2.344-.75-2.649-2.062V2.128ZM39.994 0c.752.203 1.561.725 1.857 1.474.057.144.204.635.204.758v15.273h6.631c.29 0 .86.297 1.098.482 1.763 1.372.927 4.137-1.3 4.326-2.855.242-6.046-.185-8.935-.004-1.25-.104-2.114-.928-2.306-2.158l.002-18.194C37.4 1.142 38 .471 38.758.173l.55-.172h.686V0ZM81.912 11.12l5.291-5.252c2.255-1.834 5.226.981 3.436 3.294l-4.74 4.738 4.777 4.769c1.316 1.885-.153 4.044-2.4 3.77-.603-.075-1.086-.562-1.52-.952-1.67-1.499-3.156-3.314-4.844-4.807v3.74c0 .324-.476 1.103-.718 1.343-1.332 1.313-3.414.649-3.993-1.03V1.919c.55-1.805 2.916-2.413 4.16-.92.18.218.551.903.551 1.164v8.959ZM60.457 5.442c1.247-.114 2.452.893 2.56 2.14.188 2.17-.178 4.621-.006 6.8.304 3.83 5.882 4.636 7.389 1.06.771-1.831.091-5.892.311-8.063.259-2.559 4.333-2.581 4.604.137-.232 4.6 1.123 9.313-2.785 12.731-5.447 4.765-13.794 1.14-14.191-6.07-.105-1.907-.137-4.708 0-6.597a2.304 2.304 0 0 1 2.118-2.141v.003ZM25.549 5.582c3.047-.184 3.531 4.078.718 4.561-1.538.266-2.514.154-3.552 1.6-1.327 1.848-.52 6.326-.724 8.681-.238 2.747-4.276 2.756-4.606.066.255-3.121-.607-6.866.654-9.78 1.261-2.914 4.29-4.935 7.508-5.13l.002.002ZM54.137 5.576c1.232-.042 2.157 1.068 2.272 2.224-.199 4.075.293 8.448.012 12.488-.195 2.79-3.96 2.99-4.533.335l-.01-13.039c.056-1.067 1.231-1.97 2.26-2.006v-.002ZM53.79.292c3.215-.433 3.479 4.415.53 4.58-3.08.174-3.265-4.212-.53-4.58Z"/><path fill="#38C2D7" d="M66.503.292c3.122-.423 3.509 4.38.461 4.582-2.84.188-3.322-4.195-.46-4.582Z"/></svg>
+    </a>
+
+    <nav class="nav" aria-label="رئيسية">
+      <div class="nav__item">
+        <a href="#modules" class="nav__link has-mega">المنصة <svg class="chev"><use href="#i-chev"/></svg></a>
+        <div class="mega" role="menu">
+          <div class="mega__grid">
+            <a class="mega__card" href="#modules"><span class="mega__ico"><svg><use href="#i-briefcase"/></svg></span><span><span class="mega__t">التوظيف</span><span class="mega__d">توظيف أسرع، توافق أفضل، ورؤية كاملة من الطلب حتى التوقيع.</span></span></a>
+            <a class="mega__card" href="#modules"><span class="mega__ico"><svg><use href="#i-users"/></svg></span><span><span class="mega__t">الأشخاص والثقافة</span><span class="mega__d">ابنِ الانتماء على نطاق واسع</span></span></a>
+            <a class="mega__card" href="#modules"><span class="mega__ico"><svg><use href="#i-target"/></svg></span><span><span class="mega__t">ماستر الأهداف</span><span class="mega__d">اضبط أهداف فريقك وقيّم الأداء بعدل</span></span></a>
+            <a class="mega__card" href="#modules"><span class="mega__ico"><svg><use href="#i-wallet"/></svg></span><span><span class="mega__t">التعويضات والمزايا</span><span class="mega__d">اضبط رواتب ومزايا موظفيك بثقة</span></span></a>
+            <a class="mega__card" href="#compliance"><span class="mega__ico"><svg><use href="#i-shield"/></svg></span><span><span class="mega__t">الامتثال التنظيمي</span><span class="mega__d">كل شيء تحتاجه للإمتثال في واجهة واحدة</span></span></a>
+            <a class="mega__card" href="#app"><span class="mega__ico"><svg><use href="#i-phone"/></svg></span><span><span class="mega__t">تطبيق الجوال</span><span class="mega__d">تطبيق HR يسهّل يومك من أول تسجيل دخول</span></span></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="nav__link">المدونة</a>
+      <a href="#" class="nav__link">من نحن</a>
+      <a href="#faq" class="nav__link">الأسئلة الشائعة</a>
+    </nav>
+
+    <div class="header__actions">
+      <a href="https://hrlink.com.sa/en" class="lang-toggle">EN</a>
+      <a href="#demo" class="btn btn--primary btn--sm">احجز عرض تجريبي</a>
+      <button class="burger" id="burger" aria-label="القائمة" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu__panel">
+    <a href="#modules" class="mobile-menu__link">المنصة</a>
+    <a href="#" class="mobile-menu__link">المدونة</a>
+    <a href="#" class="mobile-menu__link">من نحن</a>
+    <a href="#faq" class="mobile-menu__link">الأسئلة الشائعة</a>
+    <a href="https://hrlink.com.sa/en" class="mobile-menu__link">EN</a>
+    <a href="#demo" class="btn btn--primary btn--lg">احجز عرض تجريبي</a>
+  </div>
+</div>
+
+<main id="top">
+
+  <!-- ================================ HERO ============================== -->
+  <section class="hero">
+    <img src="assets/hero-bg-light.png" alt="" class="hero__bg" aria-hidden="true" />
+    <div class="container hero__grid">
+      <div class="hero__copy reveal">
+        <span class="eyebrow"><span class="dot"></span> المنصة المتكاملة لإدارة الموارد البشرية</span>
+        <h1>أتمت العمليات <span class="grad">من التوظيف إلى التقاعد</span> بنظام سعودي يفهمك</h1>
+        <p class="hero__sub">من فوضى العمليات.. إلى وتيرة تشغيل قابلة للتوسع</p>
+        <div class="hero__cta">
+          <a href="#demo" class="btn btn--primary btn--lg">إحجز عرض تجريبي <svg class="arrow"><use href="#i-arrow"/></svg></a>
+          <a href="#how" class="btn btn--outline btn--lg">آلية عملنا</a>
+        </div>
+        <div class="hero__trust">
+          <span class="trust-pill"><svg><use href="#i-shield"/></svg> مستضاف في المملكة 🇸🇦</span>
+          <span class="trust-pill"><svg><use href="#i-check"/></svg> الامتثال الحكومي</span>
+          <span class="trust-pill"><svg><use href="#i-support"/></svg> دعم فني سريع</span>
+        </div>
+      </div>
+      <div class="hero__visual reveal" data-d="2">
+        <div class="showcase">
+          <img src="assets/image-5.png" alt="لوحة تحكم منصة اتش آر لينك" />
+        </div>
+        <div class="float-card float-card--a">
+          <span class="ico green"><svg><use href="#i-check"/></svg></span>
+          <span>الرواتب<small>تمت المعالجة بنجاح</small></span>
+        </div>
+        <div class="float-card float-card--b">
+          <span class="ico purple"><svg><use href="#i-users"/></svg></span>
+          <span>الموظفين<small>إدارة موحّدة</small></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ CLIENT LOGOS ========================== -->
+  <section class="section--tight" aria-label="عملاؤنا">
+    <div class="container">
+      <div class="marquee">
+        <div class="marquee__track">
+          <div class="marquee__item"><img src="assets/client-aristocrazy.svg" alt="Aristocrazy" /></div>
+          <div class="marquee__item"><img src="assets/client-pdpaola.svg" alt="PD Paola" /></div>
+          <div class="marquee__item"><img src="assets/client-venchi.svg" alt="Venchi" /></div>
+          <div class="marquee__item"><img src="assets/client-salus.png" alt="Salus" /></div>
+          <div class="marquee__item"><img src="assets/client-soulandsoul.png" alt="Soul and Soul" /></div>
+          <div class="marquee__item"><img src="assets/client-aura.png" alt="Aura Centers" /></div>
+          <!-- duplicate for seamless loop -->
+          <div class="marquee__item" aria-hidden="true"><img src="assets/client-aristocrazy.svg" alt="" /></div>
+          <div class="marquee__item" aria-hidden="true"><img src="assets/client-pdpaola.svg" alt="" /></div>
+          <div class="marquee__item" aria-hidden="true"><img src="assets/client-venchi.svg" alt="" /></div>
+          <div class="marquee__item" aria-hidden="true"><img src="assets/client-salus.png" alt="" /></div>
+          <div class="marquee__item" aria-hidden="true"><img src="assets/client-soulandsoul.png" alt="" /></div>
+          <div class="marquee__item" aria-hidden="true"><img src="assets/client-aura.png" alt="" /></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ HOW WE WORK =========================== -->
+  <section class="section section--subtle" id="how">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span> آلية عملنا</span>
+        <h2>من فوضى العمليات.. إلى وتيرة تشغيل قابلة للتوسع</h2>
+      </div>
+      <div class="steps">
+        <article class="step reveal" data-d="1">
+          <div class="step__num"></div>
+          <h3>احجز اجتماع تجريبي</h3>
+          <p>تحدث مع خبير عن متطلباتك، سيجيب على اسئلتك، ويقوم بتهيئة النظام لك.</p>
+        </article>
+        <article class="step reveal" data-d="2">
+          <svg class="step__connector"><use href="#i-arrow"/></svg>
+          <div class="step__num"></div>
+          <h3>ادخل معلومات شركتك</h3>
+          <p>إذا كنت تنتقل من نظام ثاني، امنح الوصول لمزودك الحالي وسنقوم بنقل كل شيء.</p>
+        </article>
+        <article class="step reveal" data-d="3">
+          <svg class="step__connector"><use href="#i-arrow"/></svg>
+          <div class="step__num"></div>
+          <h3>ادر الموارد البشرية بكفاءة</h3>
+          <p>سنتولى الرواتب، الموارد البشرية، المزايا، الامتثال الحكومي والمزيد.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= PRODUCT MODULES (TABS) ================== -->
+  <section class="section" id="modules">
+    <div class="container">
+      <div class="modules__tabs reveal" role="tablist" aria-label="وحدات المنصة">
+        <button class="mtab is-active" role="tab" aria-selected="true" data-tab="m1"><svg><use href="#i-briefcase"/></svg> التوظيف</button>
+        <button class="mtab" role="tab" aria-selected="false" data-tab="m2"><svg><use href="#i-users"/></svg> الأشخاص والثقافة</button>
+        <button class="mtab" role="tab" aria-selected="false" data-tab="m3"><svg><use href="#i-target"/></svg> ماستر الأهداف</button>
+        <button class="mtab" role="tab" aria-selected="false" data-tab="m4"><svg><use href="#i-wallet"/></svg> التعويضات والمزايا</button>
+      </div>
+
+      <div class="mpanel is-active" id="m1" role="tabpanel">
+        <div class="mpanel__grid">
+          <div class="mpanel__copy">
+            <span class="eyebrow"><span class="dot"></span> التوظيف</span>
+            <p class="mpanel__tagline">توظيف أسرع، توافق أفضل، ورؤية كاملة من الطلب حتى التوقيع.</p>
+            <p>منصة موحّدة لطلبات الوظائف، والفرز، والمقابلات والعروض — مع لوحات معلومات، وتنبيهات، ومسارات عمل مؤتمتة.</p>
+          </div>
+          <div class="mpanel__media"><img src="assets/applicant-360.png" alt="لوحة معلومات التوظيف في اتش آر لينك" /></div>
+        </div>
+      </div>
+
+      <div class="mpanel" id="m2" role="tabpanel">
+        <div class="mpanel__grid">
+          <div class="mpanel__copy">
+            <span class="eyebrow"><span class="dot"></span> الأشخاص والثقافة</span>
+            <p class="mpanel__tagline">ابنِ الانتماء على نطاق واسع</p>
+            <p>مساحة واحدة لإدارة الثقافة، السياسات، بيانات الموظفين والهيكل التنظيمي بسجلات موثقة ومتوافقة مع الأنظمة.</p>
+            <p class="mpanel__note">الثقافة القوية لا تُبنى في جداول إكسل.</p>
+          </div>
+          <div class="mpanel__media"><img src="assets/image-4.png" alt="إدارة الأشخاص والثقافة في اتش آر لينك" /></div>
+        </div>
+      </div>
+
+      <div class="mpanel" id="m3" role="tabpanel">
+        <div class="mpanel__grid">
+          <div class="mpanel__copy">
+            <span class="eyebrow"><span class="dot"></span> ماستر الأهداف</span>
+            <p class="mpanel__tagline">اضبط أهداف فريقك وقيّم الأداء بعدل</p>
+            <p>منصة تضبط دورات التقييم، تعرّف المعايير، وتطلعك على تقارير أداء واضحة لكل موظف. حدد OKRs وأهداف تتسلسل، وتابع التقدم، وحافظ على الفرق مركّزة.</p>
+          </div>
+          <div class="mpanel__media"><img src="assets/goalsmaster.png" alt="ماستر الأهداف وتقييم الأداء في اتش آر لينك" /></div>
+        </div>
+      </div>
+
+      <div class="mpanel" id="m4" role="tabpanel">
+        <div class="mpanel__grid">
+          <div class="mpanel__copy">
+            <span class="eyebrow"><span class="dot"></span> التعويضات والمزايا</span>
+            <p class="mpanel__tagline">اضبط رواتب ومزايا موظفيك بثقة</p>
+            <p>نظام واحد يدير الرواتب، البدلات، السلف، الإجازات والأصول بتقارير واضحة وامتثال لأنظمة العمل.</p>
+          </div>
+          <div class="mpanel__media"><img src="assets/compensations.png" alt="التعويضات والمزايا في اتش آر لينك" /></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== CAPABILITY GRID (9 modules) ================ -->
+  <section class="section section--subtle">
+    <div class="container">
+      <div class="cap-grid">
+        <article class="cap reveal" data-d="1"><div class="cap__ico"><svg><use href="#i-book"/></svg></div><h3>مركز المعرفة</h3><p>مكتبة مركزية لفيديوهات قصيرة عن نظام العمل، أفضل ممارسات التوظيف، وسلامة مكان العمل.</p></article>
+        <article class="cap reveal" data-d="2"><div class="cap__ico"><svg><use href="#i-spark"/></svg></div><h3>متتبع المواهب</h3><p>تمكين إدارة تطوير وتدريب ذكية تربط المهارات بالبرامج والموافقات، مع تنبيهات وتقارير تعزز نمو الموظفين بكفاءة.</p></article>
+        <article class="cap reveal" data-d="3"><div class="cap__ico"><svg><use href="#i-timecost"/></svg></div><h3>ورقة الوقت والتكلفة</h3><p>إدارة ساعات المشاريع والتكاليف بدقة، مع تسجيل واعتماد مرن وتنبيهات وموافقات تعزز التحكم والربحية.</p></article>
+        <article class="cap reveal" data-d="1"><div class="cap__ico"><svg><use href="#i-wallet"/></svg></div><h3>التعويضات والمزايا</h3><p>إدارة رواتب وعمليات موظفين دقيقة ومتكاملة، تربط الحضور والسياسات والبنوك، وتوفر تقارير واضحة لضبط المصروفات.</p></article>
+        <article class="cap reveal" data-d="2"><div class="cap__ico"><svg><use href="#i-clock"/></svg></div><h3>الوقت والحضور</h3><p>إدارة حضور وانصراف ذكية ودقيقة تربط القواعد والمناوبات بحقوق الموظفين وتوفر تقارير فورية لاتخاذ القرار.</p></article>
+        <article class="cap reveal" data-d="3"><div class="cap__ico"><svg><use href="#i-plane"/></svg></div><h3>إدارة السفر</h3><p>إدارة سفر الأعمال تضبط الطلبات والموافقات والتكاليف، وتوفر رؤية فورية وتنبيهات تضمن الالتزام والكفاءة.</p></article>
+        <article class="cap reveal" data-d="1"><div class="cap__ico"><svg><use href="#i-bell"/></svg></div><h3>مركز الإشعارات</h3><p>مركز إشعارات موحد يربط موظفين ومدراء بتنبيهات فورية تدعم المتابعة والالتزام وسرعة الاستجابة.</p></article>
+        <article class="cap reveal" data-d="2"><div class="cap__ico"><svg><use href="#i-flow"/></svg></div><h3>محرك سير العمل</h3><p>تمكين سير عمل مرن وشفاف يضبط الموافقات والمهام والنماذج، مع تنبيهات وتقارير تعزز سرعة القرار والالتزام.</p></article>
+        <article class="cap reveal" data-d="3"><div class="cap__ico"><svg><use href="#i-report"/></svg></div><h3>التقارير</h3><p>تمكين إنشاء تقارير مخصصة ومرنة مباشرة من بيانات النظام، تمنح رؤية دقيقة تدعم القرارات بثقة.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== SAUDI COMPLIANCE ====================== -->
+  <section class="section" id="compliance">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span> تكاملات تسهل الامتثال التنظيمي</span>
+        <h2>كل شيء تحتاجه للإمتثال <span class="grad">في واجهة واحدة</span></h2>
+      </div>
+      <div class="compliance__grid">
+        <div class="compliance__media reveal"><img src="assets/everythingyouneed.png" alt="تكاملات اتش آر لينك مع مُدد والتأمينات الاجتماعية ومقيم وقوى" /></div>
+        <div class="integration-list">
+          <article class="integration reveal" data-d="1"><div class="integration__badge"><svg><use href="#i-wallet"/></svg></div><div><strong>منصة مُدد</strong><p>تسهل عملية رفع مسيّرات الرواتب مباشرة إلى المنصة والبنوك السعودية، مما يضمن سجلاً موثقاً ومؤرخاً يحقق الامتثال الكامل لنظام حماية الأجور.</p></div></article>
+          <article class="integration reveal" data-d="2"><div class="integration__badge"><svg><use href="#i-shield"/></svg></div><div><strong>التأمينات الاجتماعية</strong><p>تدير ملفات التأمينات الاجتماعية بشكل آلي، مما يتيح إضافة مشتركين جدد، تحديث الأجور، ومعالجة إنهاء الخدمة دون الحاجة لتدخل بشري.</p></div></article>
+          <article class="integration reveal" data-d="3"><div class="integration__badge"><svg><use href="#i-users"/></svg></div><div><strong>منصة مقيم</strong><p>تنظم جميع مهام الجوازات الخاصة بالموظفين الوافدين، مما يسهل على الموارد البشرية إدارة تجديد الإقامات وإصدار تأشيرات الخروج والعودة مباشرة من النظام.</p></div></article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== WHY HR LINK (BENTO) =================== -->
+  <section class="section section--subtle">
+    <div class="container">
+      <div class="bento">
+        <article class="bento__cell bento__cell--feature reveal" data-d="1">
+          <span class="bento__glow"></span>
+          <div class="bento__ico"><svg><use href="#i-shield"/></svg></div>
+          <h3>مستضاف في المملكة 🇸🇦</h3>
+          <p>بيانات مشفرة مع مراقبة مستمرة ومصادقة ثنائية تضمن الامتثال الحكومي.</p>
+        </article>
+        <article class="bento__cell reveal" data-d="2">
+          <div class="bento__ico"><svg><use href="#i-support"/></svg></div>
+          <h3>دعم فني سريع</h3>
+          <p>احصل على المساعدة من فريقنا  عبر قناة الواتس آب مباشرة أو البريد الإلكتروني.</p>
+        </article>
+        <article class="bento__cell reveal" data-d="3">
+          <div class="bento__ico"><svg><use href="#i-plug"/></svg></div>
+          <h3>يتكامل مع الانظمة الاخرى</h3>
+          <p>يعمل مع الأدوات التي تستخدمها وتعرفها مثل Odoo مع المزيد قادمًا قريبًا.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== MOBILE APP ========================= -->
+  <section class="section" id="app">
+    <div class="container app__grid">
+      <div class="app__copy">
+        <div class="section-head section-head--start reveal">
+          <span class="eyebrow"><span class="dot"></span> تطبيق الجوال</span>
+          <h2>تطبيق HR يسهّل يومك من أول تسجيل دخول</h2>
+        </div>
+        <div class="modules__tabs" style="justify-content:flex-start;margin-bottom:0" role="tablist" aria-label="جمهور التطبيق">
+          <button class="mtab is-active" data-apptab="emp">للموظفين</button>
+          <button class="mtab" data-apptab="mgr">للمدراء</button>
+        </div>
+        <div class="app-card reveal">
+          <h3>كل شيء أمامك بلحظة</h3>
+          <p>نظرة سريعة على أهم الأرقام والمهام والطلبات. لكي تبدأ يومك وأنت على دراية كاملة بالوضع.</p>
+        </div>
+        <div class="app__badges">
+          <a href="#" class="store-badge"><svg><use href="#i-apple"/></svg><span><small>حمّل من</small>App Store</span></a>
+          <a href="#" class="store-badge"><svg><use href="#i-play"/></svg><span><small>حمّل من</small>Google Play</span></a>
+          <span class="qr"><span class="qr-box"></span> Scan or tap</span>
+        </div>
+      </div>
+      <div class="phone reveal" data-d="2">
+        <span class="phone__glow"></span>
+        <div class="phone__screen" aria-hidden="true">
+          <div class="ps-top"><span>09:41</span><span>HR Link</span></div>
+          <div class="ps-hi">كل شيء أمامك بلحظة</div>
+          <div class="ps-row">
+            <div class="ps-stat"><b>2</b><small>طلبات</small></div>
+            <div class="ps-stat"><b>18</b><small>أيام إجازة</small></div>
+            <div class="ps-stat"><b>4</b><small>مهام</small></div>
+          </div>
+          <div class="ps-card"><span class="ps-dot"></span><span>طلب إجازة · بانتظار الموافقة</span></div>
+          <div class="ps-card"><span class="ps-dot"></span><span>قسيمة الراتب · مارس</span></div>
+          <div class="ps-card"><span class="ps-dot"></span><span>تسجيل الحضور · اليوم</span></div>
+        </div>
+        <img src="assets/iphone.png" alt="تطبيق اتش آر لينك على الجوال" class="phone__frame" />
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== WORKFLOW TIMELINE ===================== -->
+  <section class="section section--subtle">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span> من التوظيف إلى التقاعد</span>
+      </div>
+      <div class="timeline">
+        <div class="timeline__track">
+          <div class="tl-node reveal" data-d="1"><div class="tl-node__dot"><svg><use href="#i-briefcase"/></svg></div><div><span class="tl-node__step">01</span><h4>التوظيف</h4></div></div>
+          <div class="tl-node reveal" data-d="1"><div class="tl-node__dot"><svg><use href="#i-users"/></svg></div><div><span class="tl-node__step">02</span><h4>الأشخاص والثقافة</h4></div></div>
+          <div class="tl-node reveal" data-d="2"><div class="tl-node__dot"><svg><use href="#i-clock"/></svg></div><div><span class="tl-node__step">03</span><h4>الوقت والحضور</h4></div></div>
+          <div class="tl-node reveal" data-d="2"><div class="tl-node__dot"><svg><use href="#i-wallet"/></svg></div><div><span class="tl-node__step">04</span><h4>التعويضات والمزايا</h4></div></div>
+          <div class="tl-node reveal" data-d="3"><div class="tl-node__dot"><svg><use href="#i-target"/></svg></div><div><span class="tl-node__step">05</span><h4>ماستر الأهداف</h4></div></div>
+          <div class="tl-node reveal" data-d="3"><div class="tl-node__dot"><svg><use href="#i-bell"/></svg></div><div><span class="tl-node__step">06</span><h4>مركز الإشعارات</h4></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ HR PATH PARTNER ====================== -->
+  <section class="section">
+    <div class="container">
+      <div class="partner">
+        <div class="partner__grid">
+          <div>
+            <span class="eyebrow"><span class="dot"></span> شريك موثوق لإدارة الموارد البشرية</span>
+            <h2>قسم موارد بشرية كامل… عن طريق شريك معتمد وبنظامنا</h2>
+            <p>تفرّغ لتنمية أعمالك، ودع لنا إدارة العمليات اليومية للموارد البشرية. يتولى شريكنا المعتمد اتش آر باث تقديم كافة خدمات الموارد البشرية عبر نظام اتش آر لينك، وفق منهجية منظمة وقابلة للتطوير.</p>
+            <a href="#" class="btn btn--light">تعرف المزيد <svg class="arrow"><use href="#i-arrow"/></svg></a>
+          </div>
+          <div class="partner__list">
+            <div class="partner__item reveal" data-d="1"><svg><use href="#i-check"/></svg> قابلية توسّع مع نمو شركتك</div>
+            <div class="partner__item reveal" data-d="2"><svg><use href="#i-check"/></svg> التزام أعلى بالأنظمة وتقليل الأخطاء</div>
+            <div class="partner__item reveal" data-d="3"><svg><use href="#i-check"/></svg> تشغيل منظم وتقارير جاهزة للإدارة</div>
+            <div class="partner__item reveal" data-d="4"><svg><use href="#i-check"/></svg> قسم موارد بشرية جاهز… دون توظيف داخلي</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== COMPLIANCE ASSESSMENT CTA ================== -->
+  <section class="section section--subtle">
+    <div class="container">
+      <div class="assess">
+        <div class="assess__copy">
+          <span class="eyebrow"><span class="dot"></span> اختبار الامتثال</span>
+          <h2>قيّم التزام شركتك بالأنظمة خلال 3 دقائق</h2>
+          <p class="lead">اجب على 12 سؤال بسيط، وخلال دقائق ستتلقى <strong>تقرير امتثال HR</strong> مفصّل على الإيميل أو واتساب —يوضح نقاط القوة، الثغرات، وأولويات التحسين.</p>
+          <div class="assess__stats">
+            <div class="kpi"><b data-count="3">0</b><span>دقائق فقط</span></div>
+            <div class="kpi"><b data-count="12">0</b><span>سؤال بسيط</span></div>
+            <div class="kpi"><b data-count="3">0</b><span>أهم المخاطر</span></div>
+          </div>
+          <a href="#demo" class="btn btn--primary btn--lg">ابدأ اختبار الامتثال الآن <svg class="arrow"><use href="#i-arrow"/></svg></a>
+        </div>
+        <ul class="assess__deliverables reveal" data-d="2">
+          <li><svg><use href="#i-check"/></svg> مؤشر سريع لمستوى الامتثال الحالي.</li>
+          <li><svg><use href="#i-check"/></svg> أهم 3 مخاطر محتملة (حسب إجاباتك).</li>
+          <li><svg><use href="#i-check"/></svg> توصيات عملية وخطوات واضحة للتحسين.</li>
+          <li><svg><use href="#i-check"/></svg> قائمة تحقق مختصرة يمكن تطبيقها فوراً.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== TESTIMONIALS ======================= -->
+  <section class="section">
+    <div class="container">
+      <div class="tw">
+        <article class="tcard tcard--feature reveal">
+          <svg class="tcard__mark"><use href="#i-quote" /></svg>
+          <p class="tcard__quote">ساهم نظام HR Link في تحسين كفاءة إدارة الموارد البشرية لدينا من خلال أتمتة العمليات وتبسيط الإجراءات اليومية. يتميز بسهولة الاستخدام ودقة المخرجات، مما جعله أداة موثوقة في دعم أعمالنا التشغيلية.</p>
+          <div class="tcard__author">
+            <div class="tcard__avatar">أ</div>
+            <div><div class="tcard__name">أريج العنقري</div><div class="tcard__role">المدير العام - HR Path</div></div>
+          </div>
+        </article>
+        <article class="tcard reveal" data-d="2">
+          <svg class="tcard__mark"><use href="#i-quote" /></svg>
+          <p class="tcard__quote">باستخدام النظام، أصبح أداء فريقنا أكثر قوة وسلاسة. النظام سهل علينا عمليات التشغيل في فروعنا، وساعدنا بشكل مباشر على تحقيق أهدافنا الاستراتيجية وخلق بيئة عمل منظمة ومريحة.</p>
+          <div class="tcard__author">
+            <div class="tcard__avatar">و</div>
+            <div><div class="tcard__name">وسيم زاهر</div><div class="tcard__role">المدير العام - نوامي</div></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================== PARTNER NETWORK ======================= -->
+  <section class="section section--tight">
+    <div class="container">
+      <div class="section-head network reveal">
+        <span class="eyebrow"><span class="dot"></span> شبكة الشركاء</span>
+        <h2>وفّر أكثر مع شبكة شركاء مختارة</h2>
+        <p class="lead">عملاء اتش آر لينك يحصلون على عروض خاصة مع شركاء مختارين لخدمات تحتاجها شركتك وموظفينك. القائمة تتحدث باستمرار حسب احتياج السوق.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================= FAQ ============================= -->
+  <section class="section section--subtle" id="faq">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span> الأسئلة الشائعة</span>
+        <h2>اسئلة متكررة</h2>
+      </div>
+      <div class="faq">
+        <div class="acc reveal">
+          <button class="acc__btn" aria-expanded="false">ما هي منصة اتش آر لينك؟ <span class="acc__icon"><svg><use href="#i-chev"/></svg></span></button>
+          <div class="acc__panel"><div class="acc__panel-inner">منصة <strong>اتش آر لينك</strong> هي نظام موارد بشرية متكامل يساعد الشركات في أتمتة وإدارة جميع مهام الموارد البشرية من التوظيف حتى التقاعد بطريقة سلسة ومتوافقة مع أنظمة العمل السعودية.</div></div>
+        </div>
+        <div class="acc reveal">
+          <button class="acc__btn" aria-expanded="false">ما الميزات الأساسية التي تقدمها المنصة؟ <span class="acc__icon"><svg><use href="#i-chev"/></svg></span></button>
+          <div class="acc__panel"><div class="acc__panel-inner">توفر المنصة ميزات متعددة تشمل: إدارة التوظيف والطلبات، إدارة بيانات الموظفين، تحديد الأهداف وتقييم الأداء، إدارة التعويضات والمزايا، الحضور والانصراف، إدارة السفر، وإشعارات ذكية، إضافة إلى تقارير ومؤشرات أداء متقدمة.</div></div>
+        </div>
+        <div class="acc reveal">
+          <button class="acc__btn" aria-expanded="false">هل هناك تطبيق جوال للموظفين؟ <span class="acc__icon"><svg><use href="#i-chev"/></svg></span></button>
+          <div class="acc__panel"><div class="acc__panel-inner">نعم — تقدم المنصة تطبيق اتش آر لينك الذي يتيح للموظفين وأصحاب العمل الوصول السريع لإدارة الوثائق، طلب الإجازات، توقيع المستندات، ومتابعة الطلبات عبر الجوال.</div></div>
+        </div>
+        <div class="acc reveal">
+          <button class="acc__btn" aria-expanded="false">هل يمكن استخدام اتش آر لينك وفق نظام العمل السعودي؟ <span class="acc__icon"><svg><use href="#i-chev"/></svg></span></button>
+          <div class="acc__panel"><div class="acc__panel-inner">نعم — المنصة مبنية لتفهم بيئة العمل السعودية وتدعم الامتثال الكامل للأنظمة المحلية، بما في ذلك التكامل مع أنظمة الرواتب، التأمينات الاجتماعية، وإجراءات منصة “مقيم” للجوازات.</div></div>
+        </div>
+        <div class="acc reveal">
+          <button class="acc__btn" aria-expanded="false">كيف أبدأ باستخدام اتش آر لينك؟ <span class="acc__icon"><svg><use href="#i-chev"/></svg></span></button>
+          <div class="acc__panel"><div class="acc__panel-inner">يمكنك <strong>حجز عرض تجريبي</strong> عبر الموقع لتحديد احتياجات شركتك، استقبال إجابات لأسئلتك، وإعداد النظام وفق متطلباتك التشغيلية.</div></div>
+        </div>
+        <div class="acc reveal">
+          <button class="acc__btn" aria-expanded="false">كيف تساعد المنصة في تحسين كفاءة إدارة الموارد البشرية؟ <span class="acc__icon"><svg><use href="#i-chev"/></svg></span></button>
+          <div class="acc__panel"><div class="acc__panel-inner">المنصة تبسط العمليات التقليدية وتحوّلها إلى عمليات مؤتمتة، مما يقلل الأخطاء اليدوية، يسرّع إجراءات العمل، ويوفّر رؤية شاملة في الوقت الحقيقي عبر لوحات تحكم وتقارير جاهزة.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== FINAL CTA ========================== -->
+  <section class="section" id="demo">
+    <div class="container">
+      <div class="final-cta__box reveal">
+        <span class="eyebrow" style="background:rgba(255,255,255,.14);color:#fff"><span class="dot"></span> ابدأ اليوم</span>
+        <h2>أتمت العمليات من التوظيف إلى التقاعد بنظام سعودي يفهمك</h2>
+        <a href="#" class="btn btn--light btn--lg">احجز عرض تجريبي <svg class="arrow"><use href="#i-arrow"/></svg></a>
+        <p class="final-cta__sub">تحدث مع خبير عن متطلباتك، سيجيب على اسئلتك، ويقوم بتهيئة النظام لك.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================================ FOOTER ============================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <svg viewBox="0 0 96 24" fill="none" style="color:#fff" aria-hidden="true"><path fill="currentColor" d="M0 2.128C.441.235 2.929-.533 4.227 1.029c.28.336.584.975.584 1.408v6.487h5.98V2.162c0-.644.907-1.578 1.486-1.81 1.422-.57 3.17.477 3.258 2.013v17.853c-.183 2.211-3.159 3.11-4.389 1.151-.084-.133-.356-.691-.356-.811v-6.831H4.811v6.556c0 1.077-1.121 2.085-2.162 2.165-1.397.107-2.344-.75-2.649-2.062V2.128ZM39.994 0c.752.203 1.561.725 1.857 1.474.057.144.204.635.204.758v15.273h6.631c.29 0 .86.297 1.098.482 1.763 1.372.927 4.137-1.3 4.326-2.855.242-6.046-.185-8.935-.004-1.25-.104-2.114-.928-2.306-2.158l.002-18.194C37.4 1.142 38 .471 38.758.173l.55-.172h.686V0ZM81.912 11.12l5.291-5.252c2.255-1.834 5.226.981 3.436 3.294l-4.74 4.738 4.777 4.769c1.316 1.885-.153 4.044-2.4 3.77-.603-.075-1.086-.562-1.52-.952-1.67-1.499-3.156-3.314-4.844-4.807v3.74c0 .324-.476 1.103-.718 1.343-1.332 1.313-3.414.649-3.993-1.03V1.919c.55-1.805 2.916-2.413 4.16-.92.18.218.551.903.551 1.164v8.959ZM60.457 5.442c1.247-.114 2.452.893 2.56 2.14.188 2.17-.178 4.621-.006 6.8.304 3.83 5.882 4.636 7.389 1.06.771-1.831.091-5.892.311-8.063.259-2.559 4.333-2.581 4.604.137-.232 4.6 1.123 9.313-2.785 12.731-5.447 4.765-13.794 1.14-14.191-6.07-.105-1.907-.137-4.708 0-6.597a2.304 2.304 0 0 1 2.118-2.141v.003ZM25.549 5.582c3.047-.184 3.531 4.078.718 4.561-1.538.266-2.514.154-3.552 1.6-1.327 1.848-.52 6.326-.724 8.681-.238 2.747-4.276 2.756-4.606.066.255-3.121-.607-6.866.654-9.78 1.261-2.914 4.29-4.935 7.508-5.13l.002.002ZM54.137 5.576c1.232-.042 2.157 1.068 2.272 2.224-.199 4.075.293 8.448.012 12.488-.195 2.79-3.96 2.99-4.533.335l-.01-13.039c.056-1.067 1.231-1.97 2.26-2.006v-.002ZM53.79.292c3.215-.433 3.479 4.415.53 4.58-3.08.174-3.265-4.212-.53-4.58Z"/><path fill="#38C2D7" d="M66.503.292c3.122-.423 3.509 4.38.461 4.582-2.84.188-3.322-4.195-.46-4.582Z"/></svg>
+        <p>المنصة المتكاملة لإدارة الموارد البشرية — أتمت العمليات من التوظيف إلى التقاعد بنظام سعودي يفهمك.</p>
+        <div class="footer__social">
+          <a href="https://x.com/hrlink_sa" aria-label="X"><svg><use href="#i-x"/></svg></a>
+          <a href="https://www.linkedin.com/company/hrlink-sa" aria-label="LinkedIn"><svg><use href="#i-linkedin"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg><use href="#i-whatsapp"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>المنصة</h4>
+        <ul class="footer__links">
+          <li class="footer__contact"><a href="#modules">الوحدات</a></li>
+          <li class="footer__contact"><a href="#compliance">الامتثال التنظيمي</a></li>
+          <li class="footer__contact"><a href="#app">تطبيق الجوال</a></li>
+          <li class="footer__contact"><a href="#faq">الأسئلة الشائعة</a></li>
+          <li class="footer__contact"><a href="#">المدونة</a></li>
+          <li class="footer__contact"><a href="#">من نحن</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>معلومات الاتصال</h4>
+        <ul class="footer__contact">
+          <li><svg><use href="#i-mail"/></svg> <a href="mailto:sales@hrlink.com.sa">sales@hrlink.com.sa</a></li>
+          <li><svg><use href="#i-call"/></svg> <a href="tel:+966551175454" dir="ltr">+966551175454</a></li>
+          <li><svg><use href="#i-pin"/></svg> <span>المقر الرئيسي للأعمال، الطابق 12 حي الشاطيء، طريق الكورنيش، ص.ب 40335 جدة، المملكة العربية السعودية 21499</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 اتش آر لينك. جميع الحقوق محفوظة.</span>
+      <a href="#">سياسة الخصوصية</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
