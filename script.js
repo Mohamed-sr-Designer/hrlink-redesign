@@ -23,7 +23,7 @@
   };
   burger.addEventListener("click", () => toggleMenu());
   mobileMenu.addEventListener("click", (e) => {
-    if (e.target === mobileMenu || e.target.closest("a")) toggleMenu(false);
+    if (e.target === mobileMenu || e.target.closest("a") || e.target.closest("[data-menuclose]")) toggleMenu(false);
   });
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") toggleMenu(false);
