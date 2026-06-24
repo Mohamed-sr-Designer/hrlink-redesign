@@ -141,12 +141,12 @@ strong { font-weight: 700; color: var(--text-1); }
   margin-inline: auto;
   padding-inline: clamp(1.1rem, 4vw, 2.5rem);
 }
-.section { padding-block: clamp(3.5rem, 7vw, 7rem); position: relative; }
-.section--tight { padding-block: clamp(2.5rem, 5vw, 4.5rem); }
+.section { padding-block: clamp(2.25rem, 4vw, 4rem); position: relative; }
+.section--tight { padding-block: clamp(1.5rem, 3vw, 2.75rem); }
 .section--subtle { background: var(--bg-subtle); }
 .section--neutral { background: var(--bg-neutral); }
 
-.section-head { max-width: 720px; margin-inline: auto; text-align: center; margin-bottom: clamp(2.2rem, 4vw, 3.4rem); }
+.section-head { max-width: 720px; margin-inline: auto; text-align: center; margin-bottom: clamp(1.6rem, 3vw, 2.4rem); }
 .section-head--start { margin-inline: 0; text-align: start; }
 
 .eyebrow {
