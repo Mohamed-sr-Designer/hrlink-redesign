@@ -24,21 +24,16 @@ A complete, production-ready, high-end redesign of the **HR Link** marketing sit
 | # | Section | Pattern | Notes |
 |---|---------|---------|-------|
 | 1 | Sticky header | glass nav + mega menu + persistent demo CTA + mobile drawer | |
-| 2 | Hero | dashboard showcase + floating cards + trust indicators | |
-| 3 | Client logos | infinite horizontal marquee | real client logos |
+| 2 | Hero | dashboard showcase + floating cards + trust indicators | single demo CTA |
+| 3 | Client logos | infinite horizontal marquee | 26 real client logos |
 | 4 | آلية عملنا | 3-step connected flow | |
-| 5 | Product modules | **interactive tabs** (replaces the old carousel) | 4 featured modules |
-| 6 | Capabilities | responsive card grid (replaces carousel) | 9 modules |
-| 7 | Saudi compliance | trust layout + government-integration diagram | Mudad · GOSI · Muqeem |
-| 8 | Why HR Link | **bento grid** | 3 differentiators |
-| 9 | Mobile app | floating iPhone mockup + self-service screen + store badges | iOS / Android |
-| 10 | HR workflow | timeline journey | lifecycle of existing modules |
-| 11 | HR Path partner | gradient feature block | |
-| 12 | Compliance assessment | **animated KPI counters** + deliverables | existing figures only |
-| 13 | Testimonials | mixed-size testimonial wall (replaces slider) | |
-| 14 | FAQ | modern accordion | |
-| 15 | Final CTA | high-conversion gradient CTA | |
-| 16 | Footer | enterprise footer | contact, links, legal |
+| 5 | System modules | **12-step tabbed cards** (replaces the old carousel) | content from the HR Link brochure |
+| 6 | Saudi compliance | trust layout + government-integration diagram | Mudad · GOSI · Muqeem |
+| 7 | Why HR Link | **bento grid** (white background) | 3 differentiators |
+| 8 | Mobile app | floating iPhone mockup + self-service screen + store badges + QR | iOS / Android |
+| 9 | FAQ | modern accordion | |
+| 10 | Final CTA | high-conversion gradient CTA — **final section of the page** | |
+| — | Book a demo | global modal triggered by every demo CTA | service / date / time + contact |
 
 ## Run locally
 

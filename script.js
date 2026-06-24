@@ -13,6 +13,10 @@
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
 
+  /* ---------- Client logo marquee: duplicate for seamless loop ---------- */
+  const clientTrack = document.getElementById("clientTrack");
+  if (clientTrack) clientTrack.innerHTML += clientTrack.innerHTML;
+
   /* ---------- Mobile menu ---------- */
   const burger = document.getElementById("burger");
   const mobileMenu = document.getElementById("mobileMenu");

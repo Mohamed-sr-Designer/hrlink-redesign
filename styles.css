@@ -365,7 +365,7 @@ body.menu-open .mobile-menu__panel { transform: translateX(0); }
    7. CLIENT LOGO MARQUEE
    -------------------------------------------------------------------------- */
 .marquee { overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent); mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent); }
-.marquee__track { display: flex; align-items: center; gap: clamp(2.5rem, 6vw, 5rem); width: max-content; animation: marquee 34s linear infinite; }
+.marquee__track { display: flex; align-items: center; gap: clamp(2.5rem, 6vw, 4rem); width: max-content; animation: marquee 60s linear infinite; }
 .marquee:hover .marquee__track { animation-play-state: paused; }
 .marquee__item { display: grid; place-items: center; height: 48px; flex: 0 0 auto; }
 .marquee__item img { height: 38px; max-height: 38px; width: auto; max-width: 150px; object-fit: contain; filter: grayscale(1) opacity(.62); transition: filter var(--t); }
@@ -422,6 +422,19 @@ body.menu-open .mobile-menu__panel { transform: translateX(0); }
   border: 1px solid var(--border); box-shadow: var(--shadow-md); padding: 1.2rem;
 }
 .mpanel__media img { width: 100%; border-radius: var(--r-lg); box-shadow: var(--shadow-sm); }
+
+/* 12-step system modules */
+.steps-nav { display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center; margin-bottom: 2.4rem; max-width: 1040px; margin-inline: auto; }
+.mtab__n { display: inline-grid; place-items: center; min-width: 22px; height: 22px; padding: 0 5px; border-radius: 7px; background: rgba(74,42,175,.10); color: var(--brand-700); font-size: .72rem; font-weight: 800; }
+.mtab.is-active .mtab__n { background: rgba(255,255,255,.22); color: #fff; }
+.step-card { display: grid; grid-template-columns: auto 1fr; gap: clamp(1.2rem, 3vw, 2.6rem); align-items: center; background: linear-gradient(150deg, var(--brand-50), #eef8fb); border: 1px solid var(--border); border-radius: var(--r-2xl); padding: clamp(1.6rem, 4vw, 2.8rem); box-shadow: var(--shadow-sm); }
+.step-card__aside { display: flex; flex-direction: column; align-items: center; gap: 1rem; }
+.step-card__num { font-size: clamp(2.6rem, 6vw, 3.8rem); font-weight: 800; line-height: 1; color: var(--brand-200); }
+.step-card__ico { width: 66px; height: 66px; border-radius: 18px; display: grid; place-items: center; background: linear-gradient(150deg, var(--brand-700), var(--brand-950)); color: #fff; box-shadow: var(--shadow-brand); flex-shrink: 0; }
+.step-card__ico svg { width: 32px; height: 32px; }
+.step-card__en { display: inline-block; font-size: var(--text-sm); font-weight: 600; letter-spacing: .04em; color: var(--accent-600); margin-bottom: .4rem; }
+.step-card__body h3 { font-size: var(--text-h3); margin-bottom: .6rem; }
+.step-card__body p { color: var(--text-2); max-width: 62ch; }
 
 /* --------------------------------------------------------------------------
    10. CAPABILITY GRID (replaces carousel)
@@ -775,4 +788,6 @@ body.modal-open { overflow: hidden; }
   .float-card { display: none; }
   .hero__cta .btn { flex: 1; }
   .book-form { grid-template-columns: 1fr; padding: 1.6rem; }
+  .step-card { grid-template-columns: 1fr; }
+  .step-card__aside { flex-direction: row; justify-content: flex-start; gap: 1.1rem; }
 }
